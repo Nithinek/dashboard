@@ -1,0 +1,31 @@
+img{
+    width: 200px;
+    padding: 30px;
+}
+
+
+h1,h4{
+    text-align: center;
+    margin-top: 15px;
+}
+h3{
+    font-weight: 300;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+.pages a{
+text-decoration: none;
+height: 40px;
+padding-left: 20px;
+}
+.pages a:hover{
+background-color: rgb(112, 112, 114);
+box-shadow: 8px 3px 4px;
+}
+
+mat-icon{
+    vertical-align: middle;
+    padding: 10px;
+}

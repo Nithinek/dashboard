@@ -1,0 +1,40 @@
+div{
+    padding: 10px;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.card{
+    width:200px;
+    height:100px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.icon{
+    font-size: 60px;
+    width:fit-content;
+    height: fit-content;
+
+}
+.content{
+    font-family: 'Times New Roman', Times, serif;
+}

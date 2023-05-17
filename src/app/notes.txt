@@ -1,0 +1,26 @@
+parent chid components communication
+----------------------------------------
+1.child to parent- @Output decerator
+
+Parent- header component(toggle)
+
+child- side-bar component component(app.component)
+
+=> EventEmitter - used to generate userdefined events
+                  -its a class
+                  -emit() is a method of EventEmitter class
+
+i)header.html button(click)="menuIconClick()"
+ii) hearder.ts- userdefined event - @output() toggle=new EventEmitter();
+iii)app.html- <app-header (toggle)="sidebarToggle()">
+iv)app.ts-  sidebar:boolean=true
+v)app.html- <mat-drawer mode="side" [opened]="sidebar">
+
+2.Parent to child component communication
+
+@Input() decorator
+
+Attribute directives
+   Based on a class property we can apply style to the html element
+   i)Inbulid Attribute directives : [ngClass]
+   ii) userdefined Attribute directives
